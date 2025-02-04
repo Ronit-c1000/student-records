@@ -1,0 +1,80 @@
+.student-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    border-radius: 8px;
+}
+.student-info h1{
+    background-color: rgb(165, 41, 202);
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+}
+/* .btn-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    justify-items: start;
+    margin-top: 20px;
+    margin-left: 0%;
+} */
+.add-btn{
+    background-color: rgb(191, 25, 224);
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: start;
+}
+thead th{
+    background-color: rgb(165, 41, 202);
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+}
+td{
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.100);
+}
+.action-btn{
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(165, 41, 202);
+    text-decoration: none;
+}
+
+.even-row {
+    background-color: #ffffff;
+  }
+  
+  .odd-row {
+    background-color: rgb(246, 216, 255); 
+  }
+  
+  tr {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  tr:hover {
+    background-color: rgb(196, 160, 207);
+  }
+  

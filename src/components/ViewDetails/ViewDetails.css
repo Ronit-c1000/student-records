@@ -1,0 +1,78 @@
+.view-details{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 20px;
+    width: 30rem;
+    justify-self: center;
+    border: 1px solid  rgb(230, 163, 250);
+    padding:10px 30px 50px 30px;
+    border-radius: 5px;
+}
+.view-details h1{
+    background-color: rgb(165, 41, 202);
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-bottom: 2rem;}
+ 
+.details{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+.back-btn{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.back-btn:hover {
+    background-color: darkred; 
+    transform: scale(1.05);
+}
+.btn-div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+/* .create-stu-form input{
+    padding: 5px;
+    border: solid 1px  rgb(230, 163, 250);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+    width: 100%;
+    box-sizing: border-box;
+} */
+
+
+/* }
+.save-btn{
+    all: unset;
+    background-color:  rgb(165, 41, 202);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 10px 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.save-btn:hover {
+    background-color: rgb(140, 30, 180); 
+    transform: scale(1.05);
+}

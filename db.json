@@ -1,0 +1,52 @@
+{
+  "students": [
+    {
+      "id": "28",
+      "name": "John",
+      "place": "Mumbai",
+      "phone": "98765432"
+    },
+    {
+      "id": "32",
+      "name": "Emma",
+      "place": "Delhi",
+      "phone": "87654321"
+    },
+    {
+      "id": "24",
+      "name": "Sophia",
+      "place": "Bangalore",
+      "phone": "76543210"
+    },
+    {
+      "id": "6",
+      "name": "Olivia",
+      "place": "Chennai",
+      "phone": "54321098"
+    },
+    {
+      "id": "17",
+      "name": "Noah",
+      "place": "Kolkata",
+      "phone": "43210987"
+    },
+    {
+      "id": "18",
+      "name": "Mia",
+      "place": "Ahmedabad",
+      "phone": "32109876"
+    },
+    {
+      "id": "10",
+      "name": "sam",
+      "place": "kalewadi",
+      "phone": "789456321"
+    },
+    {
+      "id": "25",
+      "name": "Rio",
+      "place": "nigdi",
+      "phone": "963852741"
+    }
+  ]
+}

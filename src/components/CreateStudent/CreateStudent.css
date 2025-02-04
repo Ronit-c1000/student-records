@@ -1,0 +1,83 @@
+.create-student{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 20px;
+    width: 30rem;
+    justify-self: center;
+    border: 1px solid  rgb(230, 163, 250);
+    padding:10px 30px 50px 30px;
+    border-radius: 5px;
+}
+.create-stu-form{
+    display: flex;
+    flex-direction: column;
+    /* line-height: rem; */
+}
+.create-stu-form input{
+    padding: 5px;
+    border: solid 1px  rgb(230, 163, 250);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.create-stu-form input:focus {
+    border: 2px solid #e375ff;
+    outline: none; 
+    box-shadow: 0 0 5px rgba(160, 71, 243, 0.5);
+}
+.create-stu-form input[type="number"]::-webkit-inner-spin-button,
+.create-stu-form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    /* margin: 0; */
+}
+.create-student h2{
+    background-color: rgb(165, 41, 202);
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+}
+.save-btn{
+    all: unset;
+    background-color:  rgb(165, 41, 202);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 10px 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.cancel-btn{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.cancel-btn:hover {
+    background-color: darkred; 
+    transform: scale(1.05);
+}
+.save-btn:hover {
+    background-color: rgb(140, 30, 180); 
+    transform: scale(1.05);
+}
+.input-warning{
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: end;
+}
